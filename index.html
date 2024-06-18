@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Erlitz Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+   
+    <link rel="icon" sizes="200x200" href="fotos/favicon.jpg">
+
+    <style>
+        footer {
+            background: linear-gradient(to right, #c82a54, #ee7431, #fcd901);
+            padding: 20px;
+            text-align: center;
+        }
+       
+        @keyframes moverPelotita {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100vw); 
+  }
+}
+
+.pelotita {
+  position: absolute;
+  top: 22%; 
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #c82a54, #ee7431, #fcd901); 
+  animation: moverPelotita 6s linear infinite; 
+}
+    </style>
+
+</head>
+
+<body>
+    <h2> SOLANA ERLITZ </h2>
+    <h1>Bienvenidos a mi portfolio</h1>
+
+    <h5><span class="pelotita"></span></h5>
+
+    <h3>
+        <p>
+            Aquí presento algunos de mis trabajos favoritos de diseño grafico e identidades visuales que es lo que mas me gusta hacer. 
+        </p>
+        <p>Para contactarme, realizar consultas o pedir presupuestos clickear en el sigueinte link:</p>
+    </h3>
+    <h4> 
+         <a href="http://wa.me/1532110508" target="_blank" title="CONTACTO">CONTACTO</a>
+    </h4>
+<main>
+    <div><a href="fotos/foto1.jpg" data-lightbox="galeria"><img src="fotos/foto1.jpg" alt="foto1"></a></div>
+    <div><a href="fotos/foto2.jpg" data-lightbox="galeria"><img src="fotos/foto2.jpg" alt="foto2"></a></div>
+    <div><a href="fotos/foto3.jpg" data-lightbox="galeria"><img src="fotos/foto3.jpg" alt="foto3"></a></div>
+    <div><a href="fotos/foto4.jpg" data-lightbox="galeria"><img src="fotos/foto4.jpg" alt="foto4"></a></div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+<script>
+    lightbox.option({
+      'fadeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+
+    <video src="fotos/video02.mp4" controls width="1280" height="720"></video>
+    <FOoter>
+    <P> Solana Erlitz porfolio 2024. Todos los derechos reservados.</P>
+    </FOoter>
+</body>
+</html>
